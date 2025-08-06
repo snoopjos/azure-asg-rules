@@ -8,3 +8,9 @@ A hands-on Azure lab using the portal to create Application Security Groups for 
 ---
 
 ### Step 1
+Create resource group
+
+### Step 2
+Create Virtual Network with two Subnets, one public and one private
+
+### Step 3
