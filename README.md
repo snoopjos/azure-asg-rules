@@ -25,7 +25,6 @@ A hands-on Azure lab focused on configuring Network Security Groups (NSGs) to co
 
 Feel free to fork, clone, or adapt this lab to suit your own cloud security learning journey.
 
-
 ---
 
 ### Step 1
