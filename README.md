@@ -45,4 +45,4 @@ Updated NIC from dynamic to static IP as I will be adding DHCP and DNS servers t
 RDP into VM and install following roles and features: AD DS, DHCP server, DNS server, Print and Documents Services and Web Server (IIS).
 
 ### Step 6
-Storage account created with a service endpoint.
+Storage account created with a service endpoint. Ended up adding the service endpoint from the subnets instead.
