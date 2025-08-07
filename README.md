@@ -8,6 +8,8 @@ A hands-on Azure lab focused on configuring Network Security Groups (NSGs) to co
 - Configured NSG rules to:
   - ✅ Allow inbound traffic on **port 80 (HTTP)** and **443 (HTTPS)** to the public subnet
   - ❌ Deny all inbound traffic to the private subnet for enhanced security
+- Deployed a storage account for blob storage and restricted access to only allow traffic from within the Virtual Network using **storage firewall rules**
+- Enabled a **service endpoint for Microsoft.Storage** to allow secure access inside the virtual network to the storage account
 - Remoted into the web server to install roles and features via RDP (port 3389)
 
 ## 🛠️ Tech Stack
@@ -41,3 +43,6 @@ Updated NIC from dynamic to static IP as I will be adding DHCP and DNS servers t
 
 ### Step 5
 RDP into VM and install following roles and features: AD DS, DHCP server, DNS server, Print and Documents Services and Web Server (IIS).
+
+### Step 6
+Storage account created with a service endpoint.
