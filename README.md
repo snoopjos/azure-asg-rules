@@ -51,7 +51,9 @@ Storage account created with a service endpoint. Ended up adding the service end
 ### Step 7
 Attempted to access the blob via browser but failed — despite having service endpoints enabled. Learned that service endpoints only allow access from within the virtual network. Confirmed this by running the following PowerShell script from the VM:
 
+```
 Invoke-WebRequest -Uri "https://<your-storage-account>.blob.core.windows.net/<container>/<blob-name>" -OutFile "blob.jpg"
+```
 
 ✅ Blob access worked from inside the VNet, proving the firewall and service endpoint setup was correct.
 
