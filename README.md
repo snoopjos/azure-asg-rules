@@ -34,7 +34,7 @@ Feel free to fork, clone, or adapt this lab to suit your own cloud security lear
 Create resource group.
 
 ### Step 2
-Create Virtual Network with two Subnets, one public and one private.
+Create Virtual Network with a public Subnet.
 
 ### Step 3
 Deploy first VMs for the public sub, NSG rule with port 3389 open, a NIC and a public IP address.
